@@ -51,8 +51,14 @@ ul >li {
   align-items: flex-start;
 }
 .secondColumn, .firstColumn {
-  width: 40%;
   margin-top: 10%;
+}
+.secondColumn {
+  width: 40%;
+}
+
+.firstColumn {
+  width: 30%;
 }
 
 .loginButton {
@@ -70,8 +76,14 @@ ul >li {
 
 .instagramLogo {
   display: flex;
-  justify-content: center;
   align-items: center;
+}
+
+.mainText {
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  color: black;
 }
 
 
